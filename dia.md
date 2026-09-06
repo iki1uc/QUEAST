@@ -1,9 +1,4 @@
-# QUEAST · dia.geo.md
-System-Geometrie · Struktur ohne Kommentar
-
-──────────────────────────────────────────────
-1. SYSTEM-KERN
-──────────────────────────────────────────────
+# dia.md · QUEAST Struktur
 
 ┌──────────────┐
 │   SYS.js     │
@@ -19,50 +14,25 @@ System-Geometrie · Struktur ohne Kommentar
 │               │                │
 └───────────────┴────────────────┘
 
-──────────────────────────────────────────────
-2. MODULE / ROOMS
-──────────────────────────────────────────────
-
+      Kinder / Rooms
 ┌──────────────┬───────────────┬───────────────┐
 │ HOLO.room.js │ NC.room.js     │ RESPO.room.js │
 │ HOLO.engine  │ atom.js        │ beam.js       │
 └──────────────┴───────────────┴───────────────┘
 
-──────────────────────────────────────────────
-3. RAWATOR-SYSTEM
-──────────────────────────────────────────────
-
+          Enkel
 ┌──────────────┬───────────────┬──────────────┐
 │ rawator.js   │ rawator-life  │ rawator-81    │
 │ geo.json     │ id.json       │ sli.ready     │
 └──────────────┴───────────────┴──────────────┘
 
-──────────────────────────────────────────────
-4. HDF-ROM · AHNEN
-──────────────────────────────────────────────
+        Ahnen (HDF-ROM)
+d.hdf.rom  e.hdf.rom  i.hdf.rom  
+n.hdf.rom  o.hdf.rom  r.hdf.rom  
+s.hdf.rom  u.hdf.rom  w.hdf.rom
 
-d.hdf.rom  
-e.hdf.rom  
-i.hdf.rom  
-n.hdf.rom  
-o.hdf.rom  
-r.hdf.rom  
-s.hdf.rom  
-u.hdf.rom  
-w.hdf.rom  
-
-──────────────────────────────────────────────
-5. RAW · GENE
-──────────────────────────────────────────────
-
-d.raw  
-sli.ready  
-use.json  
-user.json  
-
-──────────────────────────────────────────────
-6. OBERFLÄCHE
-──────────────────────────────────────────────
+        Gene (RAW)
+d.raw  sli.ready  use.json  user.json
 
 ┌──────────────┐
 │ index.html   │
